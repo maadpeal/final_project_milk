@@ -8,6 +8,8 @@
 #### Revenue:
     - Cuanta leche produce?
     - Se ha prenado? Cuantas veces?
+    Lactancias promedio por vaca: 2.194
+    inseminaciones promedio por vaca: 2.62
 
 #### Costos:
     - Cuanto come?
@@ -96,13 +98,19 @@ aquí les dejo estos datos de las abreviaciones y lo que significan del reporte 
 1. Vaq. Gest. = ????
 2. total vaq. Hato = ??????????????
 3. becerras color = ?????????????
+4. Meses necesarios para inseminar vaquilla: 13/14 meses
+5. Meses de embarazo: 8/9 meses
+6. Días sin inseminacion después del parto: 30 días
+7. Meses necesarios para primera lactancia: 23 meses aprox
 
 
 ## 7
-1. grasa
-2. proteina
+1. grasa => 3.30%
+2. proteina = 3.0%
 3. CCS = Conteo Celulas Somáticas arriba de 100 ya no es bueno significa que hay suciedad o mastitis en la leche
 4. UREA = Si traes mucha urea se dificulta la preñez de vacas (fertilidad)arriba de 10 
+    preferentemente rangos entre 1.50 y 10.50
+5. temperatura deseada: =< 5°C
 
 
 210 DEL (días en leche) las secan el secado dura 35 días y entran a reto
