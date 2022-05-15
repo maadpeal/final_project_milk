@@ -1,4 +1,4 @@
-﻿Cow,ID_Cow_Bracelet_Podometer,Patio,Gynecological_Status,Birth_Date,Daily_Production,Average_Daily_Production_Days,Average_Daily_Production_Percentage,Lactation_Number,Milk_Days,Days_After_Heat,Insemination,Days_After_Insemination,Pregnacy_Days,Inseminator_Name,Bull's Name,Number_of_Abortions,Insemination_Date,Production_Peak,Previous_Lactation_Production,Actual_Lactation_Production
+﻿Cow,ID_Cow_Bracelet_Podometer,Patio,Gynecological_Status,Birth_Date,Daily_Production,Average_Daily_Production_Days,Average_Daily_Production_Percentage,Lactation_Number,Milk_Days,Days_After_Heat,Insemination,Days_After_Insemination,Pregnacy_Days,Inseminator_Name,Bull_Name,Number_of_Abortions,Insemination_Date,Production_Peak,Previous_Lactation_Production,Actual_Lactation_Production
 5,1519,26,Pregnacy,8/27/2021,29.2,29.9,-2,4,222,139,2,139,139,CARLOS-URIEL,EXPO,0,11/18/2021,50.3,9269,7491
 9,5471,24,Pregnacy,9/8/2021,34.6,34.4,1,4,210,132,2,132,132,CARLOS-URIEL,MARADONA,0,11/25/2021,39.1,8048,6798
 16,2285,21,Labor,3/17/2022,44.3,44.3,0,4,20,0,0,0,0,0,0,0,0,0,10529,732
