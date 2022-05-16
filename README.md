@@ -13,7 +13,8 @@ We are enthusiasts of livestock knowledge, we are convinced that the quality of 
 
 ## Data Set description 
 
-'La Montaña De Cataluña' is an important Mexican company dedicated to the raising and milking of dairy cows, thanks to them we have obtained a database of 4000 aprox daily entries corresponding to each head of cattle. We will make an analysis of 365 days that corresponds to a year of productive lactation of the cows.
+'La Montaña De Cataluña' is an important Mexican company dedicated to the raising and milking of dairy cows, thanks to them we have obtained a database of 4000 aprox daily entries corresponding to each head of cattle reproductive age, pregnancy, level of lactation, daily milk production, milk quality metrics, among others. We will make an analysis of 365 days that corresponds to a year of productive lactation of the cows.
+
 The program for excellence for farmers is AFI milk, who share the information with us in .csv format.
 
 ![DataSet](https://user-images.githubusercontent.com/96633294/168600785-3c5ab065-c448-4012-9b70-6ff5caef67dd.png)
