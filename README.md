@@ -6,11 +6,14 @@ Livestock farming is one of the agrobusinesses that became very important and re
 
 ![5fa2fccaedfc9](https://user-images.githubusercontent.com/96633294/168599396-1a142209-efeb-47b2-bb9b-0fbfa8c9238f.jpeg)
 
-## Team Roles
+## Team Roles first segment
 
 *Square Malli Velazquez
+
 *Circle Adrian Matute & Jessica Diaz
+
 *Triangle Cynthia Bello & Adrian Matute
+
 *X Felipe Cedillo
 
 ## Why this topic?
@@ -29,37 +32,4 @@ The program for excellence for farmers is AFI milk, who share the information wi
 
 ## Glosary
 
-Leche linea = Leche que se va a la pausterizadora de las becerras
-Leche sos = Leche de vacas sospechosas de brucela están en area de enfermería también van a las becerras.
-CCS = Conteo Celulas Somáticas arriba de 100 ya no es bueno significa que hay suciedad o mastitis en la leche
-UREA = Si traes mucha urea se dificulta la preñez de vacas (fertilidad)arriba de 10 
-Glosario de todas las abreviaciones 
-Vacas e = enfermas
-Vacas f = Vacas Frescas (recien paridas)
-Vientres = total de todas
-Vacas secas= cuantas se secan por día
-BR= Brucela
-Rastro v= vivo
-Rasto m = muerto
-Vacas vacas caídas
-Vacas al día 
-P = partos al día
-E = seco reto 
-210 DEL (días en leche) las secan el secado dura 35 días y entran a reto
-Reto= 35 días en reto buena alimentación etc para que paran
-AB N = abortos normales
-AB L =abortos en area de reto o seco que traen buena ubre 
-AB EG = abortan y se van a engorda
-NACIMIENTOS
-HV= hembras vivas
-Hm = hembras muertas
-Hc = hembras de color
-Mc =macho color
-hvv= hembras bajo peso
-Mv = macho vivo
-mm= macho muerto
-Diagnostico
-Ges = positivas a preñez
-Neg= negativas a preñez
-Ins = inseminadas diarias
-%Ph = promedio de lo preñado de todo el hato (producción, reto, seco)
+
