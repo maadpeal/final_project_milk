@@ -32,4 +32,7 @@ The program for excellence for farmers is AFI milk, who share the information wi
 
 ## Glosary
 
+Please click this [Glosary Link](https://github.com/maadpeal/final_project_milk/blob/307e60ae1e6d4749aef79ddbee99e3fe2d2a671b/Glosary.md) to learn more about the terms used in this data set
+
+
 
