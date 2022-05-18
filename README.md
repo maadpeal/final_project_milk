@@ -6,6 +6,12 @@ Livestock farming is one of the agrobusinesses that became very important and re
 
 ![5fa2fccaedfc9](https://user-images.githubusercontent.com/96633294/168599396-1a142209-efeb-47b2-bb9b-0fbfa8c9238f.jpeg)
 
+## Team Roles
+
+*Square Malli Velazquez
+*Circle Adrian Matute & Jessica Diaz
+*Triangle Cynthia Bello & Adrian Matute
+*X Felipe Cedillo
 
 ## Why this topic?
 
