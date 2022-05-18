@@ -1,6 +1,6 @@
-*Milk line = Milk that goes to the calf pasteurizer
+Milk line = Milk that goes to the calf pasteurizer
 
-*Milk sos = Milk from cows suspected of brucella are in the nursing area also go to the calves.
+Milk sos = Milk from cows suspected of brucella are in the nursing area also go to the calves.
 
 SCC = Somatic Cell Count above 100 is no longer good it means there is dirt or mastitis in the milk
 
