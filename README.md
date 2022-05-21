@@ -16,7 +16,7 @@ Livestock farming is one of the agrobusinesses that became very important and re
 
 *X Felipe Cedillo, in charge of defining the technology and its implementation in the trainig of the model.
 
-Main cominication channel is periodic meetings and constant online comunication.
+Main communication channel is periodic meetings and constant online comunication.
 
 ## Why this topic?
 
