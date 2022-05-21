@@ -36,6 +36,10 @@ Bellow you can see our analysis dashboard draft that will be changed and will an
 
 ![Dashboard de establo](https://user-images.githubusercontent.com/96633294/169629765-4c851752-5b3f-4c5f-bd7d-2aa4e9560ab7.jpg)
 
+## Data base Structure
+
+![db_structure](https://user-images.githubusercontent.com/96633294/169630744-9a794c94-c555-409e-9f62-986c55e823d9.png)
+
 
 ## Glosary
 
