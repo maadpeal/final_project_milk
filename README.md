@@ -8,13 +8,15 @@ Livestock farming is one of the agrobusinesses that became very important and re
 
 ## Team Roles first segment
 
-*Square Malli Velazquez
+*Square Malli Velazquez, in charge of the organization and homogenization of  the information.
 
-*Circle Adrian Matute & Jessica Diaz
+*Circle Adrian Matute & Jessica Diaz de Leon, in charge of the cleaning and first filter of the information for its handling in the model.
 
-*Triangle Cynthia Bello & Adrian Matute
+*Triangle Cynthia Bello & Adrian Matute, in charge of the creation and training of the model for its implementation in the industry.
 
-*X Felipe Cedillo
+*X Felipe Cedillo, in charge of defining the technology and its implementation in the trainig of the model.
+
+Main communication channel is periodic meetings and constant online comunication.
 
 ## Why this topic?
 
@@ -28,6 +30,15 @@ The program for excellence for farmers is AFI milk, who share the information wi
 
 ![DataSet](https://user-images.githubusercontent.com/96633294/168600785-3c5ab065-c448-4012-9b70-6ff5caef67dd.png)
 
+## Analysis Dashboard
+
+Bellow you can see our analysis dashboard draft that will be changed and will answer questions like: Wich cows are profitable for the next milkiing cycle, when its time to move the cow to another cattle sector, the top 20 less profitable cows, wich is the production forecast in liters per cow.
+
+![Dashboard de establo](https://user-images.githubusercontent.com/96633294/169629765-4c851752-5b3f-4c5f-bd7d-2aa4e9560ab7.jpg)
+
+## Data base Structure
+
+![db_structure](https://user-images.githubusercontent.com/96633294/169630744-9a794c94-c555-409e-9f62-986c55e823d9.png)
 
 
 ## Glosary
