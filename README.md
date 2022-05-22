@@ -18,6 +18,25 @@ Livestock farming is one of the agrobusinesses that became very important and re
 
 Main communication channel is periodic meetings and constant online comunication.
 
+## Index
+
+To see this repo in a more fun way, please click on any topic in the following index
+
+[Technology determination](https://github.com/maadpeal/final_project_milk/blob/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/technology.md)
+
+[ETL Process](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/ETL)
+
+[Data set cleaning](https://github.com/maadpeal/final_project_milk/blob/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/Resources/full.json)
+
+[EDA](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/EDA)
+
+[Model drafts](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/models)
+
+[Project data and resources](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/Resources)
+
+[Dashboards and visuals](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/frontend)
+
+
 ## Why this topic?
 
 We are enthusiasts of livestock knowledge, we are convinced that the quality of life of the animals is linked to a better production of milk and meat. At the same time, we are certain that we can support the growth of this industry by giving visibility to an important part of this industry that, until now, has not been so strong and therefore, the owners of livestock companies have managed empirically.
