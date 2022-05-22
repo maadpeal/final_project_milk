@@ -6,17 +6,6 @@ Livestock farming is one of the agrobusinesses that became very important and re
 
 ![5fa2fccaedfc9](https://user-images.githubusercontent.com/96633294/168599396-1a142209-efeb-47b2-bb9b-0fbfa8c9238f.jpeg)
 
-## Team Roles first segment
-
-*Square Malli Velazquez, in charge of the organization and homogenization of  the information.
-
-*Circle Adrian Matute & Jessica Diaz de Leon, in charge of the cleaning and first filter of the information for its handling in the model.
-
-*Triangle Cynthia Bello & Adrian Matute, in charge of the creation and training of the model for its implementation in the industry.
-
-*X Felipe Cedillo, in charge of defining the technology and its implementation in the trainig of the model.
-
-Main communication channel is periodic meetings and constant online comunication.
 
 ## Index
 
