@@ -6,15 +6,25 @@ Livestock farming is one of the agrobusinesses that became very important and re
 
 ![5fa2fccaedfc9](https://user-images.githubusercontent.com/96633294/168599396-1a142209-efeb-47b2-bb9b-0fbfa8c9238f.jpeg)
 
-## Team Roles first segment
 
-*Square Malli Velazquez
+## Index
 
-*Circle Adrian Matute & Jessica Diaz
+To see this repo in a more fun way, please click on any topic in the following index
 
-*Triangle Cynthia Bello & Adrian Matute
+[Technology determination](https://github.com/maadpeal/final_project_milk/blob/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/technology.md)
 
-*X Felipe Cedillo
+[ETL Process](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/ETL)
+
+[Data set cleaning](https://github.com/maadpeal/final_project_milk/blob/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/Resources/full.json)
+
+[EDA](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/EDA)
+
+[Model drafts](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/models)
+
+[Project data and resources](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/Resources)
+
+[Dashboards and visuals](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/frontend)
+
 
 ## Why this topic?
 
@@ -28,6 +38,15 @@ The program for excellence for farmers is AFI milk, who share the information wi
 
 ![DataSet](https://user-images.githubusercontent.com/96633294/168600785-3c5ab065-c448-4012-9b70-6ff5caef67dd.png)
 
+## Analysis Dashboard
+
+Bellow you can see our analysis dashboard draft that will be changed and will answer questions like: Wich cows are profitable for the next milkiing cycle?, when its time to move the cow to another cattle sector?, the top 20 less profitable cows?, wich is the production forecast in liters per cow?.
+
+![Dashboard de establo](https://user-images.githubusercontent.com/96633294/169629765-4c851752-5b3f-4c5f-bd7d-2aa4e9560ab7.jpg)
+
+## Data base Structure
+
+![db_structure](https://user-images.githubusercontent.com/96633294/169630744-9a794c94-c555-409e-9f62-986c55e823d9.png)
 
 
 ## Glosary
