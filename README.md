@@ -16,7 +16,7 @@ Livestock farming is one of the agrobusinesses that became very important and re
 
 *X Felipe Cedillo, in charge of defining the technology and its implementation in the trainig of the model.
 
-Main cominication channel is periodic meetings and constant online comunication.
+Main communication channel is periodic meetings and constant online comunication.
 
 ## Why this topic?
 
@@ -35,6 +35,10 @@ The program for excellence for farmers is AFI milk, who share the information wi
 Bellow you can see our analysis dashboard draft that will be changed and will answer questions like: Wich cows are profitable for the next milkiing cycle, when its time to move the cow to another cattle sector, the top 20 less profitable cows, wich is the production forecast in liters per cow.
 
 ![Dashboard de establo](https://user-images.githubusercontent.com/96633294/169629765-4c851752-5b3f-4c5f-bd7d-2aa4e9560ab7.jpg)
+
+## Data base Structure
+
+![db_structure](https://user-images.githubusercontent.com/96633294/169630744-9a794c94-c555-409e-9f62-986c55e823d9.png)
 
 
 ## Glosary
