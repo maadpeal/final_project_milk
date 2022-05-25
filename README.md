@@ -118,7 +118,7 @@ Link for the Tableau Story
 
 To see our organization channels and contributions please click the link below:
 
-[Team Roles](https://github.com/maadpeal/final_project_milk/blob/80a67ad511963ddfc31457e12d00f813a5df0bd9/TeamRoles)
+[Team Roles](https://github.com/maadpeal/final_project_milk/blob/cf960a3ea9721464d9bcbe4844f9e7a3e1bca847/TeamRoles.md)
 
 ## Index
 
