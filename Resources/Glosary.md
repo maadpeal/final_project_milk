@@ -1,3 +1,5 @@
+## Glosary
+
 * Milk line = Milk that goes to the calf pasteurizer
 
 * Milk sos = Milk from cows suspected of brucella are in the nursing area also go to the calves.
