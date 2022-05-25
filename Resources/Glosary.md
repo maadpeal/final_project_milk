@@ -34,7 +34,7 @@
 
 * AB EG = abort and go to fatten
 
-## BIRTHS
+## Births
 
 * HV= live females
 
