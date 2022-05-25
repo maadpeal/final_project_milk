@@ -114,6 +114,12 @@ Link for the Tableau Story
 ![dasboard draft LMDC](https://user-images.githubusercontent.com/96633294/170324227-57aaa9c4-e5dd-4577-b636-5b8dcff4578d.jpg)
 
 
+## Team Roles
+
+To see our organization channels and contributions please click the link below:
+
+[Team Roles](https://github.com/maadpeal/final_project_milk/blob/80a67ad511963ddfc31457e12d00f813a5df0bd9/TeamRoles)
+
 ## Index
 
 To see this repo in a more fun way, please click on any topic in the following index
