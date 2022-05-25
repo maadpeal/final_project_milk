@@ -53,7 +53,8 @@ Thanks to the different files received, we entered the files in a .py file to be
 * Number of inseminations
 * Gynecological status
 
-![QuickDBD-export (1)](https://user-images.githubusercontent.com/96633294/170385406-cddd1690-9b1d-4773-a13e-def0f6519d40.png)
+![db_structure_png](https://user-images.githubusercontent.com/96633294/170385656-a682e705-e7a7-4ad1-bd12-025d9ea6adaa.png)
+
 
 
 ## Analysis phase
