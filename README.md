@@ -140,7 +140,7 @@ To see this repo in a more fun way, please click on any topic in the following i
 
 ## Glosary
 
-Please click this [Glosary Link](https://github.com/maadpeal/final_project_milk/blob/307e60ae1e6d4749aef79ddbee99e3fe2d2a671b/Glosary.md) to learn more about the terms used in this data set
+Please click this [Glossary Link](https://github.com/maadpeal/final_project_milk/blob/917ff3d6636bcd8f25e885e6bd1c73f6a9ae9197/Resources/Glosary.md) to learn more about the terms used in this data set
 
 
 
