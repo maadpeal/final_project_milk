@@ -26,5 +26,5 @@ All team members have been aware of the creation and implementation of each code
 * X Jessica Dias de Leon, in charge of defining and creating interactive dashboard.
 
 
-![DELIVERABLE_team_roles](https://user-images.githubusercontent.com/96633294/170375555-57e57a28-5944-41b2-b484-74a2850c7cad.png)
+![DELIVERABLE_team_roles](https://user-images.githubusercontent.com/96633294/170376158-874ce97a-770d-494e-ba74-46b6015252fe.png)
 
