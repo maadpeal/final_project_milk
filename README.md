@@ -39,14 +39,73 @@ This analysis model will answer questions like:
 * Wich is the production forecast in liters per cow?
 * When is the best season for milking cows?
 
-## Data base Structure
+## Data exploration
+
+LMDC share to us different files for us to dive in. We have 4421 entries corresponding to each live cows that are or will be in the process of insemination, lactation or fattening.
+
+Thanks to the different files received, we entered the files in a .py file to be able to export it in a joint file called full.json from which we were able to obtain different DataFrames where we can work to obtain results such as:
+
+* Lactation summary
+* Abortion details
+* Mastitis details
+* Insemination Bulls details
+* Number of inseminations
+* Gynecological status
 
 ![db_structure](https://user-images.githubusercontent.com/96633294/169630744-9a794c94-c555-409e-9f62-986c55e823d9.png)
 
+## Analysis phase
+
+*INGRESAR AQUI LA DESCRIPCION DELMODELO*
+
+## Technologies Used
+
+### Source Control
+Github as code hosting platform.
+
+### Data Cleaning and Analysis
+We'll be using Pandas for cleaning, Python and Jupyter notebook will be used to complete the analysis.
+
+### Database Storage
+*REVISAR EL HOST DE LA DATA*
+AFI milk is our main server where we can extract data. PostgreSQL is the database we intend to use, and AWS for displaying data.
+
+### Machine Learning
+*EJEMPLO*
+
+### Dashboard
+We use Googles Slides to made this more smooth to get. For the full diplayed and interactive Dasboard we choose Tableau since this is a more friendly way to show clients our product and main results.
+
+## Machine Learning Model
+*DEFINIR QUIEN TIENE MAYPR SEGURIDAD CON EL TOPC*
+
+* Description of preliminary data preprocessing
+* Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+* Description of how data was split into training and testing sets
+* Explanation of model choice, including limitations and benefits
 
 ## Dasboard
 
-We understand that results are the main objective for our client. For this reason, we designed the following dashboard that shows the detailed results in a Tableau Story.
+Main topics:
+
+*
+*
+*
+*
+
+Description of tools
+
+* bar charts, line charts, pie charts, etc
+*
+
+Interactive Elements
+
+*
+*
+*
+
+
+We understand that results are the main objective for client. For this reason, we designed the following dashboard that shows the detailed results in a Tableau Story.
 
 Link for the Tableau Story
 
