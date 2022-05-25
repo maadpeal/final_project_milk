@@ -76,6 +76,8 @@ AFI milk is our main server where we can extract data. PostgreSQL is the databas
 ### Dashboard
 We use Googles Slides to made this more smooth to get. For the full diplayed and interactive Dasboard we choose Tableau since this is a more friendly way to show clients our product and main results.
 
+Click here to see our full [Technology determination](https://github.com/maadpeal/final_project_milk/blob/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/technology.md) document.
+
 ## Machine Learning Model
 *DEFINIR QUIEN TIENE MAYPR SEGURIDAD CON EL TOPC*
 
