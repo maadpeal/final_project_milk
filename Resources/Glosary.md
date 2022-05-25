@@ -1,4 +1,4 @@
-## Glosary
+## Glossary
 
 * Milk line = Milk that goes to the calf pasteurizer
 
