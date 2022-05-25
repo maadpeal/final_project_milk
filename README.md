@@ -44,8 +44,13 @@ This analysis model will answer questions like:
 ![db_structure](https://user-images.githubusercontent.com/96633294/169630744-9a794c94-c555-409e-9f62-986c55e823d9.png)
 
 
-Dashboard
-![Dashboard de establo](https://user-images.githubusercontent.com/96633294/169629765-4c851752-5b3f-4c5f-bd7d-2aa4e9560ab7.jpg)
+## Dasboard
+
+We understand that results are the main objective for our client. For this reason, we designed the following dashboard that shows the detailed results in a Tableau Story.
+
+Link for the Tableau Story
+
+![dasboard draft LMDC](https://user-images.githubusercontent.com/96633294/170324227-57aaa9c4-e5dd-4577-b636-5b8dcff4578d.jpg)
 
 
 ## Index
