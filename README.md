@@ -111,7 +111,8 @@ We understand that results are the main objective for client. For this reason, w
 
 Link for the Tableau Story
 
-![dasboard draft LMDC](https://user-images.githubusercontent.com/96633294/170324227-57aaa9c4-e5dd-4577-b636-5b8dcff4578d.jpg)
+![Dashboard_draft_poster](https://user-images.githubusercontent.com/96633294/170380021-32c09100-db80-4f25-80e1-68622b99fa0f.png)
+
 
 
 ## Team Roles and Communication system
