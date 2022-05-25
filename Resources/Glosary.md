@@ -1,68 +1,60 @@
-Milk line = Milk that goes to the calf pasteurizer
+* Milk line = Milk that goes to the calf pasteurizer
 
-Milk sos = Milk from cows suspected of brucella are in the nursing area also go to the calves.
+* Milk sos = Milk from cows suspected of brucella are in the nursing area also go to the calves.
 
-SCC = Somatic Cell Count above 100 is no longer good it means there is dirt or mastitis in the milk
+* SCC = Somatic Cell Count above 100 is no longer good it means there is dirt or mastitis in the milk
 
-UREA = If you bring a lot of urea, the pregnancy of cows is difficult (fertility) above 10
+* UREA = If you bring a lot of urea, the pregnancy of cows is difficult (fertility) above 10
 
-Glossary of all abbreviations
+## Glossary of all abbreviations
 
-Cows e = sick
+* Cows e = sick
 
-Cows f = Fresh Cows (just calved)
+* Cows f = Fresh Cows (just calved)
 
-Bellies = total of all
+* Bellies = total of all
 
-Dry cows = how many dry per day
+* Dry cows = how many dry per day
 
-BR= Brucella
+* BR= Brucella
 
-Trace v= alive
+* Trace v= alive
 
-trace m = dead
+* trace m = dead
 
-cows cows down
+* P = deliveries per day
 
-cows a day
+* E = dry challenge
 
-P = deliveries per day
+* AB N = normal abortions
 
-E = dry challenge
+* AB L = abortions in a challenge or dry area that bring good udder
 
-210 DEL (days in milk) dry them the drying lasts 35 days and they enter the challenge
+* AB EG = abort and go to fatten
 
-Challenge = 35 days in a good nutrition challenge, etc. why do they stop?
+## BIRTHS
 
-AB N = normal abortions
+* HV= live females
 
-AB L = abortions in a challenge or dry area that bring good udder
+* Hm = dead females
 
-AB EG = abort and go to fatten
+* Hc = colored females
 
-BIRTHS
+* Mc =male color
 
-HV= live females
+* hvv= underweight females
 
-Hm = dead females
+* Mv = live male
 
-Hc = colored females
+* mm= dead male
 
-Mc =male color
+## Diagnosis
 
-hvv= underweight females
+* Ges = pregnancy positive
 
-Mv = live male
+* Neg= negative to pregnancy
 
-mm= dead male
+* Ins = daily inseminated
 
-Diagnosis
-
-Ges = pregnancy positive
-
-Neg= negative to pregnancy
-
-Ins = daily inseminated
-
-%Ph = average of the pregnant of the whole herd (production, challenge, dry)
+* %Ph = average of the pregnant of the whole herd (production, challenge, dry)
 
