@@ -33,8 +33,8 @@ The farmers program for excellence is AFI milk, who share the information with u
 For 'La Montaña de Cataluña' it's very important to understand some topics in order to improve their functions of veterinarians, keepers and administrators so cow can be as relax as possible that it's one of the most important factors to get more and better milk, and if cow is no more profitable, when it's time to let them go. 
 This analysis model will answer questions like: 
 
-* Wich cows are profitable for the next milkiing cycle?
-* when its time to move the cow to another cattle sector?
+* Wich cows are profitable for the next milking cycle?
+* When its time to move the cow to another cattle sector?
 * The top 20 less profitable/ more profitable cows?
 * Wich is the production forecast in liters per cow?
 * When is the best season for milking cows?
