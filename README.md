@@ -116,7 +116,7 @@ Link for the Tableau Story
 
 ## Team Roles and Communication system
 
-Click [here](https://github.com/maadpeal/final_project_milk/blob/cf960a3ea9721464d9bcbe4844f9e7a3e1bca847/TeamRoles.md) to see more details about our member roles and communication network.
+Click [here](https://github.com/maadpeal/final_project_milk/blob/26a5ca4b720ce82f8e7eff9bbbd8167b46fe1f48/TeamRoles.md) to see more details about our member roles and communication network.
 
 ## Index
 
