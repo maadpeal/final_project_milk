@@ -23,7 +23,7 @@ All team members have been aware of the creation and implementation of each code
 
 * Triangle Cynthia Bello & Adrian Matute, in charge of the creation of a workable database.
 
-* X Jessica Dias de Leon, in charge of defining and creating interactive dashboard.
+* X Jessica Diaz de Leon, in charge of defining and creating interactive dashboard.
 
 
 ![DELIVERABLE_team_roles](https://user-images.githubusercontent.com/96633294/170376158-874ce97a-770d-494e-ba74-46b6015252fe.png)
