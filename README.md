@@ -5,7 +5,7 @@
 
 Livestock farming is one of the agrobusinesses that became very important and requires better management of information and data, since very few companies in Mexico take care of this topic. Livestock entrepreneurs must collect information regarding productive, reproductive, agronomic, labor, tax, climate and input purchase management, among others. A milking parlor is a clear example of a highly demanding livestock production system in terms of information management. Said system is normally linked to an automated information capture and collection equipment. Even so, the collection of information by itself does not generate any utility for the company, if it is not analyzed or used for decision-making based on evidence. In this project we will talk about data management in the livestock company and how we can make correct use of them, to improve milking and obtain better monetary results, a longer and better quality life for the animals.
 
-Click this link to check full project presentation in our Google Slides
+Click this [Link](https://www.canva.com/design/DAFB0Qjk7Lo/8pKShJEnCYx53ELGNgezXw/view?utm_content=DAFB0Qjk7Lo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) to check full project presentation in our Google Slides
 
 ![5fa2fccaedfc9](https://user-images.githubusercontent.com/96633294/168599396-1a142209-efeb-47b2-bb9b-0fbfa8c9238f.jpeg)
 
