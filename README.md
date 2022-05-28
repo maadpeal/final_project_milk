@@ -70,8 +70,7 @@ Github as code hosting platform.
 We'll be using Pandas for cleaning, Python and Jupyter notebook will be used to complete the analysis.
 
 ### Database Storage
-*REVISAR EL HOST DE LA DATA*
-AFI milk is our main server where we can extract data. PostgreSQL is the database we intend to use, and AWS for displaying data.
+AFI milk is our main server where we can extract data in .csv format. PostgreSQL is the database we intend to use, and AWS for displaying data.
 
 ### Machine Learning
 *EJEMPLO*
