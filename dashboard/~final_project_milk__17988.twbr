@@ -26,163 +26,6 @@
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
-    <datasource caption='profitable_less_profitable_lactations' inline='true' name='federated.05hbxo01j9snou103gnkn0u51ion' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='profitable_less_profitable_lactations' name='textscan.0h1vrpb1h16mnp1an1xer02tenh7'>
-            <connection class='textscan' directory='C:/Users/Doc/OneDrive/Documents/BOOTTEC/final_project_milk/dashboard' filename='profitable_less_profitable_lactations.csv' password='' server='' workgroup-auth-mode='as-is' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0h1vrpb1h16mnp1an1xer02tenh7' name='profitable_less_profitable_lactations.csv' table='[profitable_less_profitable_lactations#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='es_NI' separator=','>
-            <column datatype='integer' name='lactation' ordinal='0' />
-            <column datatype='real' name='profitable %' ordinal='1' />
-            <column datatype='real' name='less profitable %' ordinal='2' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0h1vrpb1h16mnp1an1xer02tenh7' name='profitable_less_profitable_lactations.csv' table='[profitable_less_profitable_lactations#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='es_NI' separator=','>
-            <column datatype='integer' name='lactation' ordinal='0' />
-            <column datatype='real' name='profitable %' ordinal='1' />
-            <column datatype='real' name='less profitable %' ordinal='2' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[profitable_less_profitable_lactations.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
-              <attribute datatype='string' name='currency'>&quot;C$&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;es_NI&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>lactation</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[lactation]</local-name>
-            <parent-name>[profitable_less_profitable_lactations.csv]</parent-name>
-            <remote-alias>lactation</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profitable_less_profitable_lactations.csv_3C1A1E26E7D249698DCCCBB17EABB920]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>profitable %</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[profitable %]</local-name>
-            <parent-name>[profitable_less_profitable_lactations.csv]</parent-name>
-            <remote-alias>profitable %</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profitable_less_profitable_lactations.csv_3C1A1E26E7D249698DCCCBB17EABB920]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>less profitable %</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[less profitable %]</local-name>
-            <parent-name>[profitable_less_profitable_lactations.csv]</parent-name>
-            <remote-alias>less profitable %</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profitable_less_profitable_lactations.csv_3C1A1E26E7D249698DCCCBB17EABB920]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
-        <aliases>
-          <alias key='&quot;[federated.05hbxo01j9snou103gnkn0u51ion]&quot;' value='Non profitable %' />
-        </aliases>
-      </column>
-      <column datatype='string' name='[Less Profitable % (grupo)]' role='dimension' type='nominal'>
-        <calculation class='categorical-bin' column='[less profitable %]' new-bin='true'>
-          <bin default-name='true' value='&quot;72.091964489&quot;'>
-            <value>72.091964488959704</value>
-          </bin>
-        </calculation>
-      </column>
-      <_.fcp.ObjectModelTableType.true...column caption='profitable_less_profitable_lactations.csv' datatype='table' name='[__tableau_internal_object_id__].[profitable_less_profitable_lactations.csv_3C1A1E26E7D249698DCCCBB17EABB920]' role='measure' type='quantitative' />
-      <column caption='Lactation' datatype='integer' name='[lactation]' role='measure' type='quantitative' />
-      <column caption='Less Profitable %' datatype='real' name='[less profitable %]' role='measure' type='quantitative' />
-      <column caption='Profitable %' datatype='real' name='[profitable %]' role='measure' type='quantitative' />
-      <column-instance column='[profitable %]' derivation='Sum' name='[sum:profitable %:qk]' pivot='key' type='quantitative' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
-      <style>
-        <style-rule element='mark'>
-          <encoding attr='color' field='[Less Profitable % (grupo)]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;72.091964489&quot;</bucket>
-            </map>
-            <map to='#59a14f'>
-              <bucket>&quot;55.514705882352942&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;54.410122813546707&quot;</bucket>
-            </map>
-            <map to='#9c755f'>
-              <bucket>&quot;100.0&quot;</bucket>
-            </map>
-            <map to='#b07aa1'>
-              <bucket>&quot;82.758620689655174&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;53.301886792452827&quot;</bucket>
-            </map>
-            <map to='#edc948'>
-              <bucket>&quot;67.34693877551021&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;51.547876169906409&quot;</bucket>
-            </map>
-            <map to='#ff9da7'>
-              <bucket>&quot;83.333333333333343&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[:Measure Names]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.05hbxo01j9snou103gnkn0u51ion].[sum:profitable \%:qk]&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;[federated.05hbxo01j9snou103gnkn0u51ion]&quot;</bucket>
-            </map>
-          </encoding>
-        </style-rule>
-      </style>
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Nicaragua&quot;' />
-      </semantic-values>
-      <date-options start-of-week='monday' />
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='profitable_less_profitable_lactations.csv' id='profitable_less_profitable_lactations.csv_3C1A1E26E7D249698DCCCBB17EABB920'>
-            <properties context=''>
-              <relation connection='textscan.0h1vrpb1h16mnp1an1xer02tenh7' name='profitable_less_profitable_lactations.csv' table='[profitable_less_profitable_lactations#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='es_NI' separator=','>
-                  <column datatype='integer' name='lactation' ordinal='0' />
-                  <column datatype='real' name='profitable %' ordinal='1' />
-                  <column datatype='real' name='less profitable %' ordinal='2' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
     <datasource caption='profitable_lactations' inline='true' name='federated.06pjxy21syb2rp1f7i76b0w4u0nl' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -497,125 +340,6 @@
                   <column datatype='integer' name='total_production_9' ordinal='8' />
                   <column datatype='integer' name='total' ordinal='9' />
                   <column datatype='integer' name='index' ordinal='10' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
-    <datasource caption='total_lactations_results' inline='true' name='federated.15gboni0w6jp8g0zq17y908ndcn4' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='total_lactations_results' name='textscan.1aalsbc0izqa361e6mc5z1ofszgl'>
-            <connection class='textscan' directory='C:/Users/Doc/OneDrive/Documents/BOOTTEC/final_project_milk' filename='total_lactations_results.csv' password='' server='' workgroup-auth-mode='as-is' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1aalsbc0izqa361e6mc5z1ofszgl' name='total_lactations_results.csv' table='[total_lactations_results#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='es_NI' separator=','>
-            <column datatype='integer' name='lactation' ordinal='0' />
-            <column datatype='real' name='profitable %' ordinal='1' />
-            <column datatype='real' name='less profitable %' ordinal='2' />
-            <column datatype='integer' name='total production' ordinal='3' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1aalsbc0izqa361e6mc5z1ofszgl' name='total_lactations_results.csv' table='[total_lactations_results#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='es_NI' separator=','>
-            <column datatype='integer' name='lactation' ordinal='0' />
-            <column datatype='real' name='profitable %' ordinal='1' />
-            <column datatype='real' name='less profitable %' ordinal='2' />
-            <column datatype='integer' name='total production' ordinal='3' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[total_lactations_results.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
-              <attribute datatype='string' name='currency'>&quot;C$&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;es_NI&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>lactation</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[lactation]</local-name>
-            <parent-name>[total_lactations_results.csv]</parent-name>
-            <remote-alias>lactation</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>profitable %</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[profitable %]</local-name>
-            <parent-name>[total_lactations_results.csv]</parent-name>
-            <remote-alias>profitable %</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>less profitable %</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[less profitable %]</local-name>
-            <parent-name>[total_lactations_results.csv]</parent-name>
-            <remote-alias>less profitable %</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>total production</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[total production]</local-name>
-            <parent-name>[total_lactations_results.csv]</parent-name>
-            <remote-alias>total production</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <_.fcp.ObjectModelTableType.true...column caption='total_lactations_results.csv' datatype='table' name='[__tableau_internal_object_id__].[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]' role='measure' type='quantitative' />
-      <column caption='Lactation' datatype='integer' name='[lactation]' role='measure' type='quantitative' />
-      <column caption='Less Profitable %' datatype='real' name='[less profitable %]' role='measure' type='quantitative' />
-      <column caption='Profitable %' datatype='real' name='[profitable %]' role='measure' type='quantitative' />
-      <column caption='Total Production' datatype='integer' name='[total production]' role='measure' type='quantitative' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Nicaragua&quot;' />
-      </semantic-values>
-      <date-options start-of-week='monday' />
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='total_lactations_results.csv' id='total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD'>
-            <properties context=''>
-              <relation connection='textscan.1aalsbc0izqa361e6mc5z1ofszgl' name='total_lactations_results.csv' table='[total_lactations_results#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='es_NI' separator=','>
-                  <column datatype='integer' name='lactation' ordinal='0' />
-                  <column datatype='real' name='profitable %' ordinal='1' />
-                  <column datatype='real' name='less profitable %' ordinal='2' />
-                  <column datatype='integer' name='total production' ordinal='3' />
                 </columns>
               </relation>
             </properties>
@@ -3120,6 +2844,382 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='profitable_less_profitable_lactations' inline='true' name='federated.05hbxo01j9snou103gnkn0u51ion' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='profitable_less_profitable_lactations' name='textscan.0h1vrpb1h16mnp1an1xer02tenh7'>
+            <connection class='textscan' directory='C:/Users/jessi/OneDrive/Documentos/GitHub/final_project_milk' filename='profitable_less_profitable_lactations.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0h1vrpb1h16mnp1an1xer02tenh7' name='profitable_less_profitable_lactations.csv' table='[profitable_less_profitable_lactations#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_NI' separator=','>
+            <column datatype='integer' name='lactation' ordinal='0' />
+            <column datatype='real' name='profitable %' ordinal='1' />
+            <column datatype='real' name='less profitable %' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0h1vrpb1h16mnp1an1xer02tenh7' name='profitable_less_profitable_lactations.csv' table='[profitable_less_profitable_lactations#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_NI' separator=','>
+            <column datatype='integer' name='lactation' ordinal='0' />
+            <column datatype='real' name='profitable %' ordinal='1' />
+            <column datatype='real' name='less profitable %' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[profitable_less_profitable_lactations.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;C$&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_NI&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lactation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[lactation]</local-name>
+            <parent-name>[profitable_less_profitable_lactations.csv]</parent-name>
+            <remote-alias>lactation</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profitable_less_profitable_lactations.csv_3C1A1E26E7D249698DCCCBB17EABB920]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profitable %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[profitable %]</local-name>
+            <parent-name>[profitable_less_profitable_lactations.csv]</parent-name>
+            <remote-alias>profitable %</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profitable_less_profitable_lactations.csv_3C1A1E26E7D249698DCCCBB17EABB920]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less profitable %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[less profitable %]</local-name>
+            <parent-name>[profitable_less_profitable_lactations.csv]</parent-name>
+            <remote-alias>less profitable %</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profitable_less_profitable_lactations.csv_3C1A1E26E7D249698DCCCBB17EABB920]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.05hbxo01j9snou103gnkn0u51ion]&quot;' value='Non profitable %' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Less Profitable % (grupo)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[less profitable %]' new-bin='true'>
+          <bin default-name='true' value='&quot;72.091964489&quot;'>
+            <value>72.091964488959704</value>
+          </bin>
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='profitable_less_profitable_lactations.csv' datatype='table' name='[__tableau_internal_object_id__].[profitable_less_profitable_lactations.csv_3C1A1E26E7D249698DCCCBB17EABB920]' role='measure' type='quantitative' />
+      <column caption='Lactation' datatype='integer' name='[lactation]' role='measure' type='quantitative' />
+      <column caption='Less Profitable %' datatype='real' name='[less profitable %]' role='measure' type='quantitative' />
+      <column caption='Profitable %' datatype='real' name='[profitable %]' role='measure' type='quantitative' />
+      <column-instance column='[profitable %]' derivation='Sum' name='[sum:profitable %:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[Less Profitable % (grupo)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;72.091964489&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;55.514705882352942&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;54.410122813546707&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;100.0&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;82.758620689655174&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;53.301886792452827&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;67.34693877551021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;51.547876169906409&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;83.333333333333343&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.05hbxo01j9snou103gnkn0u51ion].[sum:profitable \%:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.05hbxo01j9snou103gnkn0u51ion]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Nicaragua&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='profitable_less_profitable_lactations.csv' id='profitable_less_profitable_lactations.csv_3C1A1E26E7D249698DCCCBB17EABB920'>
+            <properties context=''>
+              <relation connection='textscan.0h1vrpb1h16mnp1an1xer02tenh7' name='profitable_less_profitable_lactations.csv' table='[profitable_less_profitable_lactations#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_NI' separator=','>
+                  <column datatype='integer' name='lactation' ordinal='0' />
+                  <column datatype='real' name='profitable %' ordinal='1' />
+                  <column datatype='real' name='less profitable %' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='total_lactations_results' inline='true' name='federated.15gboni0w6jp8g0zq17y908ndcn4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='total_lactations_results' name='textscan.1aalsbc0izqa361e6mc5z1ofszgl'>
+            <connection class='textscan' directory='C:/Users/jessi/OneDrive/Documentos/GitHub/final_project_milk/dashboard' filename='total_prod_cows.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1aalsbc0izqa361e6mc5z1ofszgl' name='total_prod_cows.csv' table='[total_prod_cows#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='total_production_1' ordinal='0' />
+            <column datatype='integer' name='total_production_2' ordinal='1' />
+            <column datatype='integer' name='total_production_3' ordinal='2' />
+            <column datatype='integer' name='total_production_4' ordinal='3' />
+            <column datatype='integer' name='total_production_5' ordinal='4' />
+            <column datatype='integer' name='total_production_6' ordinal='5' />
+            <column datatype='integer' name='total_production_7' ordinal='6' />
+            <column datatype='integer' name='total_production_8' ordinal='7' />
+            <column datatype='integer' name='total_production_9' ordinal='8' />
+            <column datatype='integer' name='total' ordinal='9' />
+            <column datatype='integer' name='index' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1aalsbc0izqa361e6mc5z1ofszgl' name='total_prod_cows.csv' table='[total_prod_cows#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='total_production_1' ordinal='0' />
+            <column datatype='integer' name='total_production_2' ordinal='1' />
+            <column datatype='integer' name='total_production_3' ordinal='2' />
+            <column datatype='integer' name='total_production_4' ordinal='3' />
+            <column datatype='integer' name='total_production_5' ordinal='4' />
+            <column datatype='integer' name='total_production_6' ordinal='5' />
+            <column datatype='integer' name='total_production_7' ordinal='6' />
+            <column datatype='integer' name='total_production_8' ordinal='7' />
+            <column datatype='integer' name='total_production_9' ordinal='8' />
+            <column datatype='integer' name='total' ordinal='9' />
+            <column datatype='integer' name='index' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_production_1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_production_1]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>total_production_1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_production_2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_production_2]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>total_production_2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_production_3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_production_3]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>total_production_3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_production_4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_production_4]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>total_production_4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_production_5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_production_5]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>total_production_5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_production_6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_production_6]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>total_production_6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_production_7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_production_7]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>total_production_7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_production_8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_production_8]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>total_production_8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_production_9</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_production_9]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>total_production_9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>total</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>index</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[index]</local-name>
+            <parent-name>[total_prod_cows.csv]</parent-name>
+            <remote-alias>index</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='total_lactations_results.csv' datatype='table' name='[__tableau_internal_object_id__].[total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Nicaragua&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='total_lactations_results.csv' id='total_lactations_results.csv_9F12B0A03A1A4CF3AB8D5810E05586AD'>
+            <properties context=''>
+              <relation connection='textscan.1aalsbc0izqa361e6mc5z1ofszgl' name='total_prod_cows.csv' table='[total_prod_cows#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='total_production_1' ordinal='0' />
+                  <column datatype='integer' name='total_production_2' ordinal='1' />
+                  <column datatype='integer' name='total_production_3' ordinal='2' />
+                  <column datatype='integer' name='total_production_4' ordinal='3' />
+                  <column datatype='integer' name='total_production_5' ordinal='4' />
+                  <column datatype='integer' name='total_production_6' ordinal='5' />
+                  <column datatype='integer' name='total_production_7' ordinal='6' />
+                  <column datatype='integer' name='total_production_8' ordinal='7' />
+                  <column datatype='integer' name='total_production_9' ordinal='8' />
+                  <column datatype='integer' name='total' ordinal='9' />
+                  <column datatype='integer' name='index' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
   </datasources>
   <actions>
     <action caption='Resaltado 1 (generado)' name='[Action1_6BF39BF5EE4849F7AA229FD7445CE440]'>
@@ -4452,15 +4552,7 @@
       </layout-options>
       <table>
         <view>
-          <datasources>
-            <datasource caption='total_lactations_results' name='federated.15gboni0w6jp8g0zq17y908ndcn4' />
-          </datasources>
-          <datasource-dependencies datasource='federated.15gboni0w6jp8g0zq17y908ndcn4'>
-            <column caption='Lactation' datatype='integer' name='[lactation]' role='measure' type='quantitative' />
-            <column-instance column='[lactation]' derivation='None' name='[none:lactation:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[total production]' derivation='Sum' name='[sum:total production:qk]' pivot='key' type='quantitative' />
-            <column caption='Total Production' datatype='integer' name='[total production]' role='measure' type='quantitative' />
-          </datasource-dependencies>
+          <datasources />
           <aggregation value='true' />
         </view>
         <style />
@@ -4470,10 +4562,6 @@
               <breakdown value='auto' />
             </view>
             <mark class='Circle' />
-            <encodings>
-              <size column='[federated.15gboni0w6jp8g0zq17y908ndcn4].[sum:total production:qk]' />
-              <text column='[federated.15gboni0w6jp8g0zq17y908ndcn4].[none:lactation:qk]' />
-            </encodings>
             <style>
               <style-rule element='mark'>
                 <format attr='mark-labels-cull' value='true' />
@@ -4485,7 +4573,7 @@
                 <format attr='mark-labels-range-scope' value='pane' />
                 <format attr='mark-labels-range-field' value='' />
                 <format attr='mark-color' value='#75a1c7' />
-                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-show' value='false' />
               </style-rule>
             </style>
           </pane>
@@ -4580,7 +4668,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='261'>
-    <window class='worksheet' name='Total Litters Per Lactations'>
+    <window class='worksheet' maximized='true' name='Total Litters Per Lactations'>
       <cards>
         <edge name='left'>
           <strip size='175'>
@@ -4606,7 +4694,7 @@
       </viewpoint>
       <simple-id uuid='{C11C13E0-F70F-4E2C-9753-62495BACAEC5}' />
     </window>
-    <window class='worksheet' maximized='true' name='More and Less Profitable Lactation'>
+    <window class='worksheet' name='More and Less Profitable Lactation'>
       <cards>
         <edge name='left'>
           <strip size='160'>
