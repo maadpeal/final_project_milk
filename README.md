@@ -25,7 +25,8 @@ The farmers program for excellence is AFI milk, who share the information with u
 * mastitis records
 * abortion records
 
-![DataSet](https://user-images.githubusercontent.com/96633294/168600785-3c5ab065-c448-4012-9b70-6ff5caef67dd.png)
+
+![image](https://user-images.githubusercontent.com/96089967/171966907-2a8f5b38-5bf4-4dd9-94ba-c9fc8277138f.png)
 
 
 
@@ -71,6 +72,35 @@ We'll be using Pandas for cleaning, Python and Jupyter notebook will be used to 
 
 ### Database Storage
 AFI milk is our main server where we can extract data in .csv format. PostgreSQL is the database we intend to use, and AWS for displaying data.
+
+Database Storare AWS
+
+We created an AWS Database to reach smoothly tha dataset.
+
+![image](https://user-images.githubusercontent.com/96089967/171967067-5c4df73e-86f7-47b7-8d33-fc41f97d2769.png)
+
+
+
+![image](https://user-images.githubusercontent.com/96089967/171967342-9bcf32e7-7575-4b9a-a20c-7eb918b8a903.png)
+
+
+
+We conected the AWS Database to Postgrest so we can manage the information
+
+![image](https://user-images.githubusercontent.com/96089967/171967199-aeb2492e-a982-41eb-906e-9535c40110ce.png)
+
+
+
+### Database Management
+
+We created 8 tables where we storaged all the information that helped us to process the dataset in our model so we can anwser our first quetion.
+
+Which cows are profitable for the next cycle of milking?
+
+![image](https://user-images.githubusercontent.com/96089967/171967610-bfc71dcf-b0fe-4e86-a2a6-cd7def669e7c.png)
+
+
+
 
 ### Machine Learning
 *EJEMPLO*
