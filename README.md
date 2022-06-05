@@ -60,7 +60,7 @@ Thanks to the different files received, we entered the files in a .py file to be
 
 ## Analysis phase
 
-*INGRESAR AQUI LA DESCRIPCION DELMODELO*
+We are using a classification data model so we can analyze if a cow goes above 10,000 liters or below 10,0000 liters during her lactation considering certain criteria so we can predict their 3rd Lactation and optimize our production. 
 
 ## Technologies Used
 
