@@ -134,22 +134,23 @@ We used a classification model decision tree because we found it very helpful to
 
 Main topics:
 
-*
-*
-*
-*
+* Average Days in milk
+* Cows per gynecological status
+* Top 20 best and worst cows in cattle
+* Best lactations
 
 Description of tools
 
-* bar charts, line charts, pie charts, etc
-*
+* bar charts
+* line charts
+* pie charts
+* interactive bar charts
 
 Interactive Elements
 
-*
-*
-*
-
+* Top best and worst cows selector
+* Pop Up labels
+* KPI selector
 
 We understand that results are the main objective for client. For this reason, we designed the following dashboard that shows the detailed results in a Tableau Story.
 
