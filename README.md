@@ -111,12 +111,22 @@ We use Googles Slides to made this more smooth to get. For the full diplayed and
 Click here to see our full [Technology determination](https://github.com/maadpeal/final_project_milk/blob/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/technology.md) document.
 
 ## Machine Learning Model
-*DEFINIR QUIEN TIENE MAYPR SEGURIDAD CON EL TOPC*
 
 * Description of preliminary data preprocessing
+
+We had to obtain our data from the cows through the AFIMILK database. We cleaned the database, fixed empty spaces, transform dates etc. After that we uploaded our data to PostgreSQL.
+
+
+
 * Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+
+We filtered our data and removed some data that wouldn't help us out with our model because we decided not to take the daily records of the cows. We summarized the data and based on the costs/per litres produced per cow we figured out that in order to make a profit with a cow she has to produce above 10,000 liters per lactation. 
+
 * Description of how data was split into training and testing sets
+We used the tools and what we learned in class plus we made a new column "objectives" to help us out find out if a cow made above 10,000 liters or below 10,000 liters in her 3rd lactation and after that we made our split.
+
 * Explanation of model choice, including limitations and benefits
+We used a classification model decision tree because we found it very helpful to code and construct our final objective. It helped us find out if a cow was profitable or not. 
 
 ## Dasboard
 
