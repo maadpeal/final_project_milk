@@ -25,7 +25,8 @@ The farmers program for excellence is AFI milk, who share the information with u
 * mastitis records
 * abortion records
 
-![DataSet](https://user-images.githubusercontent.com/96633294/168600785-3c5ab065-c448-4012-9b70-6ff5caef67dd.png)
+
+![image](https://user-images.githubusercontent.com/96089967/171966907-2a8f5b38-5bf4-4dd9-94ba-c9fc8277138f.png)
 
 
 
@@ -59,7 +60,7 @@ Thanks to the different files received, we entered the files in a .py file to be
 
 ## Analysis phase
 
-*INGRESAR AQUI LA DESCRIPCION DELMODELO*
+We are using a classification data model so we can analyze if a cow goes above 10,000 liters or below 10,0000 liters during her lactation considering certain criteria so we can predict their 3rd Lactation and optimize our production. 
 
 ## Technologies Used
 
@@ -72,6 +73,35 @@ We'll be using Pandas for cleaning, Python and Jupyter notebook will be used to 
 ### Database Storage
 AFI milk is our main server where we can extract data in .csv format. PostgreSQL is the database we intend to use, and AWS for displaying data.
 
+Database Storare AWS
+
+We created an AWS Database to reach smoothly tha dataset.
+
+![image](https://user-images.githubusercontent.com/96089967/171967067-5c4df73e-86f7-47b7-8d33-fc41f97d2769.png)
+
+
+
+![image](https://user-images.githubusercontent.com/96089967/171967342-9bcf32e7-7575-4b9a-a20c-7eb918b8a903.png)
+
+
+
+We conected the AWS Database to Postgrest so we can manage the information
+
+![image](https://user-images.githubusercontent.com/96089967/171967199-aeb2492e-a982-41eb-906e-9535c40110ce.png)
+
+
+
+### Database Management
+
+We created 8 tables where we storaged all the information that helped us to process the dataset in our model so we can anwser our first quetion.
+
+Which cows are profitable for the next cycle of milking?
+
+![image](https://user-images.githubusercontent.com/96089967/171967610-bfc71dcf-b0fe-4e86-a2a6-cd7def669e7c.png)
+
+
+
+
 ### Machine Learning
 *EJEMPLO*
 
@@ -81,37 +111,50 @@ We use Googles Slides to made this more smooth to get. For the full diplayed and
 Click here to see our full [Technology determination](https://github.com/maadpeal/final_project_milk/blob/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/technology.md) document.
 
 ## Machine Learning Model
-*DEFINIR QUIEN TIENE MAYPR SEGURIDAD CON EL TOPC*
 
 * Description of preliminary data preprocessing
+
+We had to obtain our data from the cows through the AFIMILK database. We cleaned the database, fixed empty spaces, transform dates etc. After that we uploaded our data to PostgreSQL.
+
+
+
 * Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+
+We filtered our data and removed some data that wouldn't help us out with our model because we decided not to take the daily records of the cows. We summarized the data and based on the costs/per litres produced per cow we figured out that in order to make a profit with a cow she has to produce above 10,000 liters per lactation. 
+
 * Description of how data was split into training and testing sets
+
+We used the tools and what we learned in class plus we made a new column "objectives" to help us out find out if a cow made above 10,000 liters or below 10,000 liters in her 3rd lactation and after that we made our split.
+
 * Explanation of model choice, including limitations and benefits
+
+We used a classification model decision tree because we found it very helpful to code and construct our final objective. It helped us find out if a cow was profitable or not. 
 
 ## Dasboard
 
 Main topics:
 
-*
-*
-*
-*
+* Average Days in milk
+* Cows per gynecological status
+* Top 20 best and worst cows in cattle
+* Best lactations
 
 Description of tools
 
-* bar charts, line charts, pie charts, etc
-*
+* bar charts
+* line charts
+* pie charts
+* interactive bar charts
 
 Interactive Elements
 
-*
-*
-*
-
+* Top best and worst cows selector
+* Pop Up labels
+* KPI selector
 
 We understand that results are the main objective for client. For this reason, we designed the following dashboard that shows the detailed results in a Tableau Story.
 
-Link for the Tableau Story
+[Link for the Tableau Story](https://public.tableau.com/views/PRODUCTIVITYANALYSISINLAMONTAADECATALUADAIRYFARM/Dashboard3?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ![Dashboard_draft_poster](https://user-images.githubusercontent.com/96633294/170380021-32c09100-db80-4f25-80e1-68622b99fa0f.png)
 
