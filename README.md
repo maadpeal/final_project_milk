@@ -130,7 +130,7 @@ We used the tools and what we learned in class plus we made a new column "object
 
 We used a classification model decision tree because we found it very helpful to code and construct our final objective. It helped us find out if a cow was profitable or not. 
 
-## Dasboard
+## Dashboard
 
 Main topics:
 
