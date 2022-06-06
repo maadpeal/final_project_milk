@@ -100,6 +100,13 @@ Which cows are profitable for the next cycle of milking?
 ![image](https://user-images.githubusercontent.com/96089967/171967610-bfc71dcf-b0fe-4e86-a2a6-cd7def669e7c.png)
 
 
+Bellow you can see some of our filled tables:
+
+![b-1](https://user-images.githubusercontent.com/96633294/172076002-e29580f8-77b9-4587-9fd0-41b886a757a2.png)  ![d-1](https://user-images.githubusercontent.com/96633294/172076017-877d8929-6872-4058-98f6-1dc9d2d4fc14.png)
+
+
+
+
 
 
 ### Machine Learning
