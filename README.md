@@ -115,7 +115,7 @@ Bellow you can see some of our filled tables:
 ### Dashboard
 We use Googles Slides to made this more smooth to get. For the full diplayed and interactive Dasboard we choose Tableau since this is a more friendly way to show clients our product and main results.
 
-Click here to see our full [Technology determination](https://github.com/maadpeal/final_project_milk/blob/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/technology.md) document.
+Click here to see our full [Technology determination](https://github.com/maadpeal/final_project_milk/blob/main/technology.md) document.
 
 ## Machine Learning Model
 
@@ -170,13 +170,13 @@ We understand that results are the main objective for client. For this reason, w
 
 ## Team Roles and Communication system
 
-Click [here](https://github.com/maadpeal/final_project_milk/blob/26a5ca4b720ce82f8e7eff9bbbd8167b46fe1f48/TeamRoles.md) to see more details about our member roles and communication network.
+Click [here](https://github.com/maadpeal/final_project_milk/blob/main/TeamRoles.md) to see more details about our member roles and communication network.
 
 ## Index
 
 To see this repo in a more fun way, please click on any topic in the following index
 
-[Technology determination](https://github.com/maadpeal/final_project_milk/blob/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/technology.md)
+[Technology determination](https://github.com/maadpeal/final_project_milk/blob/main/technology.md)
 
 [ETL Process](https://github.com/maadpeal/final_project_milk/tree/61adb0614722dd872fa2e7f4b1edca5c0dd10e9c/ETL)
 
