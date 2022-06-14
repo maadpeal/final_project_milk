@@ -108,10 +108,6 @@ Bellow you can see some of our filled tables:
 
 
 
-
-### Machine Learning
-*EJEMPLO*
-
 ### Dashboard
 We use Googles Slides to made this more smooth to get. For the full diplayed and interactive Dasboard we choose Tableau since this is a more friendly way to show clients our product and main results.
 
@@ -161,7 +157,7 @@ Interactive Elements
 
 We understand that results are the main objective for client. For this reason, we designed the following dashboard that shows the detailed results in a Tableau Story.
 
-[Link for the Tableau Story](https://public.tableau.com/app/profile/jessica.diaz.de.leon.gomez/viz/PRODUCTIVITYANALYSISINLAMONTAADECATALUADAIRYFARM/DairyFarmProductionanalysis)
+[Link for the Tableau Story](https://public.tableau.com/views/PRODUCTIVITYANALYSISINLAMONTAADECATALUADAIRYFARM/Finalhistory?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 ![preliminary dashboard](https://user-images.githubusercontent.com/96633294/172073474-ac38f710-fe60-493d-b257-d08a1c889c69.png)
