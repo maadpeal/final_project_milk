@@ -82,8 +82,7 @@ def get_target_columns(total_dt):
 
 def get_data():
     conexion = get_conexion_db()
-    cur = conexion.cursor(conexion)
-    
+    cur = get_cursor(conexion)
     alive_cows = pd.read_csv('../Resources/alive_cows_to_predict.csv')
     ids_cows = alive_cows[['id']]
     list_of_single_column = ids_cows['id'].tolist()
@@ -92,8 +91,8 @@ def get_data():
 
     df = get_lactation_summary(cur, string_ids)
     get_total_production(df, list_of_single_column)
-    get_days_milk()
-    get_lactation()
+    get_days_milk(df, list_of_single_column)
+    get_lactation(df, list_of_single_column)
 
     group = df.groupby('id_cow').first()
     group_df = group.reset_index()
@@ -101,7 +100,7 @@ def get_data():
 
     abort_cows = get_aborts(group_df, cur, string_ids)
     inse_cows = get_inse(cur, string_ids)
-    mast_cows = get_mas(cur)
+    mast_cows = get_mas(cur, string_ids)
     
     total_dt = pd.merge(group_df, abort_cows, how='left', on='id_cow').fillna(False, downcast='infer')
     total_dt = pd.merge(total_dt, inse_cows, how='left', on='id_cow').fillna(False, downcast='infer')
